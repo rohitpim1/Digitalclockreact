@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Tro from "./Tro";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+const App = () => {
+  const bg = "#00ff80";
+  let d = new Date().toLocaleTimeString();
+  const[currDate , setCurr] = useState(d);
+  const[bac , setBac] = useState(bg);
+  const[name , changeName] = useState("click me");
+  
+  const start = () =>{
+    let dv = new Date().toLocaleTimeString();
+    setCurr(dv);
+  }
+  setInterval(start,1000);
+  const backcolor = () =>
+  {  
+    const b = "#ff4000";
+    setBac(b);
+    const t = "hurray!";
+    changeName(t);
+   
+  }
+  const dclick = () =>
+  {
+    const g = "	#00ffff";
+    setBac(g);
+  
+    changeName("oye !");
+  }
+  return(
+    <>
+    <Tro time = {currDate}/>
+   <div style= {{ background : bac }}>
+   <button onClick = {backcolor} onDoubleClick = {dclick}> {name}</button>
+   </div>
+  
+  </>
+
   );
-}
+
+};
 
 export default App;
