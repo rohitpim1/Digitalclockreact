@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Digitalclockreact/static/css/main.dadf0b7a.chunk.css",
+    "main.js": "/Digitalclockreact/static/js/main.ae678199.chunk.js",
+    "main.js.map": "/Digitalclockreact/static/js/main.ae678199.chunk.js.map",
+    "runtime-main.js": "/Digitalclockreact/static/js/runtime-main.beff4fcd.js",
+    "runtime-main.js.map": "/Digitalclockreact/static/js/runtime-main.beff4fcd.js.map",
+    "static/js/2.5e167b9f.chunk.js": "/Digitalclockreact/static/js/2.5e167b9f.chunk.js",
+    "static/js/2.5e167b9f.chunk.js.map": "/Digitalclockreact/static/js/2.5e167b9f.chunk.js.map",
+    "index.html": "/Digitalclockreact/index.html",
+    "precache-manifest.19d6c71d6c99ee599d3bddae484e7b46.js": "/Digitalclockreact/precache-manifest.19d6c71d6c99ee599d3bddae484e7b46.js",
+    "service-worker.js": "/Digitalclockreact/service-worker.js",
+    "static/css/main.dadf0b7a.chunk.css.map": "/Digitalclockreact/static/css/main.dadf0b7a.chunk.css.map",
+    "static/js/2.5e167b9f.chunk.js.LICENSE.txt": "/Digitalclockreact/static/js/2.5e167b9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.beff4fcd.js",
+    "static/js/2.5e167b9f.chunk.js",
+    "static/css/main.dadf0b7a.chunk.css",
+    "static/js/main.ae678199.chunk.js"
+  ]
+}
